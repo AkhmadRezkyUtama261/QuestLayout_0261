@@ -1,6 +1,9 @@
 package com.example.pert4prak
 
+import android.R.attr.padding
+import androidx.compose.foundation.layout.Column
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
 
 @Composable
 fun Activitaspertama(modifier: Modifier) {
@@ -19,5 +22,18 @@ fun Activitaspertama(modifier: Modifier) {
         stringResource( id = R.string.univ),
         fontSize = 22.sp
     )
+    Spacer(modifier = Modifier.height(25.dp))
+    card(
+        modifier = Modifier
+            .fillMaxWidth(fraction = 1f)
+            .padding(all = 12.dp),
+        colors = CardDefaults.cardColors(
+            containerColor = colorResource( id = R.color.card_0_bg)
+        )
+    ){
+        Row(){
+
+        } })
+
 
 }
