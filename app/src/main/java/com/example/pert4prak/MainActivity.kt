@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Pert4PrakTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    Activitaspertama(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
