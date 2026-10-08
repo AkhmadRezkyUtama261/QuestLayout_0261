@@ -2,6 +2,7 @@ package com.example.pert4prak
 
 import android.R.attr.padding
 import androidx.compose.foundation.layout.Column
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 
@@ -47,8 +48,11 @@ fun Activitaspertama(modifier: Modifier) {
                     color = Color.White,
                     modifier = Modifier.padding(top = 15.dp)
                 )
-
-                )
+                Text(
+                    stringResource( id = R.string.alamat),
+                    fontsize = 20.sp,
+                    color = Color.Yellow,
+                    modifier = Modifier.padding(top = 10.dp)
             }
 
         } })
