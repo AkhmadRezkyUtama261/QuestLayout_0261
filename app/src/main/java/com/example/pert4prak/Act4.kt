@@ -26,20 +26,15 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import android.R.attr.padding
-import androidx.compose.foundation.layout.Column
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
 
 @Composable
 fun Activitaspertama(modifier: Modifier) {
     Column(
-        modifier = Modifier,padding(top = 100.dp)
-            .fillMaxSize()
+        modifier = Modifier.padding(top = 100.dp)
+            .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     )
-}{
+{
     Text(
         stringResource( id = R.string.prodi),
         fontSize = 35.sp,
@@ -59,7 +54,7 @@ fun Activitaspertama(modifier: Modifier) {
         )
     ){
         Row(){
-            val gambar = painterResource( id = R.Drawable.logo_umy)
+            val gambar = painterResource( id = R.drawable.logo_umy)
             image(
                 painter = gambar,
                 contentDescription = null,
@@ -105,8 +100,4 @@ fun Activitaspertama(modifier: Modifier) {
                 .padding(bottom = 50.dp)
         )
     }
-}
-
-
-
 }
