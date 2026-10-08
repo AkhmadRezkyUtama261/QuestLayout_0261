@@ -94,7 +94,18 @@ fun Activitaspertama(modifier: Modifier) {
                 .padding(bottom = 50.dp)
         )
     }
-    )
+    Box(
+        modifier = Modifier
+            .fillMxSize()
+    ){
+        Text(
+            stringResource( id = R.stringcopy),
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .padding(bottom = 50.dp)
+        )
+    }
+}
 
 
 
