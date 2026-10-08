@@ -38,6 +38,18 @@ fun Activitaspertama(modifier: Modifier) {
                 contentDescription = null,
                 modifier = Modifier.size(100.dp) .padding( all = 5.dp)
             )
+            Spacer(modifier = Modifier.width(30,dp))
+            Column(){
+                Text(
+                    stringResource("Akhmad Rezky Utama"),
+                    fontSize = 30.sp,
+                    fontFamily = FontFamily.Cursive,
+                    color = Color.White,
+                    modifier = Modifier.padding(top = 15.dp)
+                )
+
+                )
+            }
 
         } })
 
