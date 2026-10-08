@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">Pert4Prak</string>
-    <string name="app_name">Pert4Prak</string>
-    <string name="app_name">Pert4Prak</string>
-    <string name="app_name">Pert4Prak</string>
-    <string name="app_name">Pert4Prak</string>
+    <string name="prodi">Teknologi Informasi</string>
+    <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+    <string name="nama">Akhmad Rezky Utama</string>
+    <string name="alamat">Yogya</string>
+    <string name="copy">Copyright, 2026</string>
 
 </resources>
